@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43ad0b58b3ed224d8e18ac0fd2bf2aa, type: 3}
+  m_Name: D10 Inve
+  m_EditorClassIdentifier: 
+  ItemID: D010
+  TargetInventoryName: TheInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
+  Usable: 1
+  Consumable: 1
+  ConsumeQuantity: 1
+  Equippable: 0
+  EquippableIfInventoryIsFull: 0
+  MoveWhenEquipped: 1
+  Droppable: 0
+  CanMoveObject: 1
+  CanSwapObject: 1
+  DisplayProperties:
+    DisplayEquipUseButton: 0
+    DisplayMoveButton: 0
+    DisplayDropButton: 0
+    DisplayEquipButton: 0
+    DisplayUseButton: 1
+    DisplayUnequipButton: 0
+  Quantity: 1
+  ItemName: "\u5E7F\u64AD\u5587\u53ED"
+  ShortDescription: 
+  Description: "\u897F\u6D77\u5CB8\u5173\u4E8C\u7237\u8BA9\u4F60\u4FEE\u7684\u5587\u53ED\uFF0C\u867D\u7136\u4F60\u5E76\u4E0D\u61C2\u673A\u68B0\u7ED3\u6784\uFF0C\u4F46\u662F\u8FD9\u91CC\u4E5F\u6CA1\u6253\u7B97\u7ED9\u4F60\u585E\u89E3\u5BC6\uFF0C\u6240\u4EE5\u653E\u5FC3\u7684\u53BB\u4FEE\u5427\uFF0C\u8FD9\u624D\u7B2C\u4E8C\u4E2A\u573A\u666F\uFF0C\u4E0D\u4F1A\u4E3A\u96BE\u4F60\u7684\u3002\u4F60\u73B0\u5728\u53EA\u8981\u60F3\u7740\u600E\u4E48\u7ED9\u5173\u4E8C\u7237\u5FC3\u60C5\u6574\u597D\u4E86\u5C31\u884C\u3002\u554A\uFF1F\u4F60\u8BF4\u6CA1\u6709\u5F15\u5BFC\uFF1F\u5173\u4E8C\u7237\u4E0D\u662F\u90FD\u8DDF\u4F60\u8BF4\u660E\u767D\u4E86\u4E48\uFF0C\u4F60\u591A\u7528\u7528\u5C31\u4FEE\u597D\u4E86\uFF01"
+  Icon: {fileID: 21300000, guid: f7b879a2335fdbd4382a4343d6b399e2, type: 3}
+  Prefab: {fileID: 225687897219099718, guid: 1b89f728ced733e438ed36ab24ddf189, type: 3}
+  ForcePrefabDropQuantity: 0
+  PrefabDropQuantity: 1
+  DropProperties:
+    Shape: 0
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
+    MinimumSphereRadius: 1
+    MaximumSphereRadius: 2
+    MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
+    MaximumCubeBaseSize: {x: 2, y: 2, z: 2}
+    MinimumNormalAxisOffset: 0
+    MaximumNormalAxisOffset: 0
+    UseNormalAxisOffsetCurve: 0
+    NormalOffsetCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    NormalOffsetCurveRemapZero: 0
+    NormalOffsetCurveRemapOne: 1
+    InvertNormalOffsetCurve: 0
+    MinimumRotation: {x: 0, y: 0, z: 0}
+    MaximumRotation: {x: 0, y: 0, z: 0}
+    MinimumScale: {x: 1, y: 1, z: 1}
+    MaximumScale: {x: 1, y: 1, z: 1}
+  MaximumStack: 1
+  ItemClass: 0
+  TargetEquipmentInventoryName: TheInventory
+  EquippedSound: {fileID: 0}
+  UsedSound: {fileID: 0}
+  MovedSound: {fileID: 0}
+  DroppedSound: {fileID: 0}
+  UseDefaultSoundsIfNull: 1
